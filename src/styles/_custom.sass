@@ -1,19 +1,217 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float2 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 66%
+    right: 63%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    width: 220px
+    top: 48%
+    right: 40%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 36%
+    right: 20%
+  &-4
+    animation: float5 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 33%
+    right: 18%
+  &-5
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 6%
+    right: 22%
 
-
+.banner-principal__img
+  z-index: 1        
 @keyframes float1
   0%
-    transform: translateY(20px)
+    transform: translatex(10px)
+  100%
+    transform: translatex(-10px)
+
+@keyframes float5
+  0%
+    transform: translatey(10px)
+  100%
+    transform: translatey(0px)  
+
+@keyframes float2
+	0% 
+		transform: rotate(0deg) translateX(-10px) rotate(-10deg)
+	
+
+	100% 
+		transform: rotate(180deg) translateX(-10px) rotate(-180deg)  
+
+@keyframes float3
+	0% 
+		transform: rotate(0deg) translateX(-20px) rotate(-20deg)
+	
+
+	100% 
+		transform: rotate(120deg) translateX(-20px) rotate(-120deg)  
+
+@keyframes float4
+	0% 
+		transform: rotate(0deg) translateX(20px) rotate(20deg)
+	
+
+	100% 
+		transform: rotate(-180deg) translateX(20px) rotate(180deg)     
+
+.banner-principal__img
+  width: 430px !important    
+
+.img-a 
+  display: block
+  margin: auto
+
+.img-t
+  width: auto
+  height: auto      
+
+@keyframes rotate 
+  0%
+    transform: rotate(0)
 
   100%
-    transform: translateY(0px)
+    transform: rotate(360deg)  
+
+.bloque-texto-g.color-acento-contenido
+  box-shadow: inset 5rem 0 0 0 white    
+  background: linear-gradient(90deg, rgba(77,208,225,1) 0%, rgba(61,166,180,1) 100%)
+
+.bg1
+  background-color: #E4F8FB
+  display: flex
+  justify-content: center
+  align-items: center  
+
+.color-fondo-text
+  position: relative
+  &:before
+    content: ''
+    display: block
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 55%
+    right: 0
+  &__texto
+    position: relative
+    *
+      display: inline
+
+  &.bg-color
+    &:before
+      background-color: #E4F8FB  
+
+.acordion
+  .tarjeta.bg6
+    background-color: #FFF3CE
+
+.tarjeta.bg6.acordion__activo
+  background-color: #FFF3CE !important  
+
+.acordion__accion__btn--a i
+  color: #FDC070 !important
+.tarjeta.bg6.acordion__activo i            
+  color: #FD9927 !important         
+
+.pasos-a.color-acento-botones .pasos-a__circle div
+  color: white  
+
+.bg2
+  background: linear-gradient(180deg, rgba(8,71,122,1) 0%, rgba(26,109,178,1) 100%)
+  display: flex
+  justify-content: center
+  align-items: center
+  *
+    color: white    
+
+.bg3
+  background-color: #D2E1F1    
+
+.colorv
+  color: #3BC192 
+
+.cajon.color-secundario
+  background-color: #DDE7F0
+
+.tarjeta.color-acento-botones--borde
+  background-color: #DBEDFD
+  border: 4px solid #DBEDFD
+.tabs-a.color-acento-botones .tabs-a__tab__selected::before 
+  background-color: #FD9927
+
+.tabs-a.color-acento-botones .tabs-a__tab:hover, .tabs-a.color-acento-botones .tabs-a__tab:active, .tabs-a.color-acento-botones .tabs-a__tab:focus, .tabs-a.color-acento-botones .tabs-a__tab__selected
+  background-color: #FD9927 !important
+  *
+    color: white !important  
+.tabs-a__tab 
+  background-color: #E8E8E8        
+
+.bg4
+  background-color: #ADE9F1
+  border-radius: 15px 0 0 15px
+
+.bg5
+  background-color: #A0D4DA
+  border-radius: 0 15px 15px 0  
+
+.img-top
+  margin-top: -5rem   
+
+.bgw
+  background-color: white  
+
+.bg7
+  background: linear-gradient(180deg, rgba(62,121,169,1) 0%, rgba(218,230,240,1) 100%)  
+
+.acordion
+  .tarjeta.bg8
+    background-color: white
+
+.tarjeta.bg8.acordion__activo
+  background-color: #F6F6F6 !important  
+
+.color-fondo-text1
+  position: relative
+  &:before
+    content: ''
+    display: block
+    position: absolute
+    top: 0
+    bottom: 30%
+    left: 0
+    right: 70%
+  &__texto
+    position: relative
+    *
+      display: inline
+
+  &.bg-color
+    &:before
+      background-color: #FFF2CA
+
+.border-y
+  border-top: solid 2px #AFAFAF !important
+  border-bottom: solid 2px #AFAFAF !important
+
+.border-bot
+  border-bottom: solid 2px #AFAFAF !important
+
+.tarjeta.color-secundario
+  background-color: #DBEDFD
+  *
+    color: #12263F
+
+.cajon.color-acento-contenido::before
+  background-color: #F3A953 
+.cajon.color-acento-contenido
+  background-color: #FAEFE2            

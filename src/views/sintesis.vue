@@ -3,15 +3,14 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    p(data-aos="fade-down").mb-5 Dentro de las configuraciones del sistema operativo es importante identificar que al encender el computador se realiza la comprobación de <i>hardware</i>, creando una capa de acceso de <i>software</i> a nivel superior con el <i>hardware</i>. Actuando el sistema como intermediario entre el <i>hardware</i> y el usuario que permita ejecutar los programas y exista comunicación entre ambos. La seguridad del sistema que está instalado en el computador es importante mantenerla para que los dispositivos funcionen correctamente, cuando se instalan las actualizaciones presentan mejoras de funcionamiento del <i>software</i>, solucionando errores y vulnerabilidades. Debido a esto es importante conocer que existen dos formas de actualizar el sistema operativo, de forma manual, que cada usuario debe descargar desde la página oficial de cada sistema operativo; o de forma automática, que lo único que debe realizar el usuario es programar la fecha de actualización. Con estas acciones se garantiza mayor confiabilidad a la hora de interactuar entre la computadora y el usuario, así como seguridad cuando se descarga información.    
 
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
           img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
       .col-auto
-        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/Síntesis.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto

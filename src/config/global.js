@@ -1,17 +1,30 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Funcionalidad del sistema operativo',
+    descripcionCurso:
+      'Los sistemas operativos permiten gestionar los recursos <i>hardware</i> y proveer de servicios al resto de programas que se ejecuten sobre él, siendo el sistema quien se ejecuta siempre en modo privilegiado con respecto al resto. Por esta razón es importante verificar la funcionalidad según el <i>hardware</i> para el cual será utilizado.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/3.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/4.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-5'],
+        imagen: require('@/assets/curso/portada/5.png'),
       },
     ],
   },
@@ -32,30 +45,44 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Dispositivos y compatibilidad con el software',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
-
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Seguridad de la información',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Gestión de la información',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Diseño de informes técnicos sobre instalación',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo:
+              'Normas y estándares técnicos más comunes para la entrega de informes',
+            hash: 't_3_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo:
+          'Comprobar el funcionamiento de los dispositivos T.I en compatibilidad con el <i>software</i>  ',
         desarrolloContenidos: true,
       },
     ],
@@ -101,32 +128,143 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Seguridad de la información.',
+      referencia:
+        'Vega, E. (2021). Seguridad de la información. Área de innovación y desarrollo, SL. Recuperado de:',
+      tipo: 'Libro',
+      link:
+        'https://www.3ciencias.com/wp-content/uploads/2021/03/LIBRO-SEGURIDAD-INFORMACIO%CC%81N.pdf',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Gestión de la seguridad de la información.',
+      referencia:
+        'Silva, F. Segadas, G. & Bezerra, K. (s/a). Gestión de la seguridad de la información. Red Cedia. Recuperado de:',
+      tipo: 'Libro',
+      link:
+        'https://desarrolloeconomico.gov.co/sites/default/files/planeacion/manual_del_sistema_de_gestion_de_seguridad_de_la_informacion_v3.0_1.pdf',
+    },
+    {
+      tema: 'Fundamentos de seguridad informática.',
+      referencia:
+        'Saramago, E.& Ponce, J. (2021). Fundamentos de seguridad informática. Grupo Compás. Recuperado de:',
+      tipo: 'Libro',
+      link:
+        'https://www.researchgate.net/publication/354054517_Libro_Fundamentos_de_seguridad_informatica/link/61214449232f955865a0e90d/download',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Compatibilidad',
+      significado:
+        'es la forma que hace que un sistema, un programa o aplicación, logren entenderse correctamente, tanto directamente o indirectamente.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'El control de acceso basado en roles (RBAC)',
+      significado:
+        'es un mecanismo de control de acceso que define los roles y los privilegios para determinar si a un usuario se le debe dar acceso a un recurso.',
+    },
+    {
+      termino: 'Entrada',
+      significado:
+        'dentro de la definición de sistemas, se asocia a la señal que ingresa al sistema y en su mayoría se relacionan en estados.',
+    },
+    {
+      termino: '<i>Firewall</i>',
+      significado:
+        'es un cortafuegos y su principal función es bloquear el acceso no autorizado.',
+    },
+    {
+      termino: 'Información',
+      significado:
+        'es un conjunto de elementos que interactúan entre sí con un fin común; que permite que la información esté disponible para satisfacer las necesidades en una organización.',
+    },
+    {
+      termino: 'Lista de control de acceso <i>(ACL)</i>',
+      significado:
+        'es una serie de comandos del <i>IOS</i> que controlan, si un <i>router</i> reenvía o descarta paquetes, según la información que se encuentra en el encabezado de este.',
+    },
+    {
+      termino: 'Paquete',
+      significado:
+        'definición asociada a la red de datos, que son bloques y divide la información que el usuario quiere enviar.',
+    },
+    {
+      termino: 'Salida',
+      significado:
+        'se asocia a la señal que sale de cualquier sistema y en su mayoría se relacionan en estados ya sean cero (0) o uno (1)',
+    },
+    {
+      termino: 'Sistema',
+      significado:
+        'está conformado por mecanismos o pautas que complementan, ya sea una idea material o conceptual.',
+    },
+    {
+      termino: '<i>Software</i>',
+      significado:
+        'logicial o soporte lógico al sistema formal de un sistema informático, que comprende el conjunto de los componentes lógicos necesarios que hace posible la realización de tareas específicas.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'CCNA desde cero (6 de diciembre de 2022). Listas de Control de Acceso (ACL): Funcionamiento y Creación.',
+      link: 'https://ccnadesdecero.es/listas-control-acceso-acl-router-cisco/',
+    },
+    {
+      referencia:
+        'Desarrollo económico (s.f.). Manual del sistema de gestión de seguridad de la información. [Documento web]',
+      link:
+        'http://www.desarrolloeconomico.gov.co/sites/default/files/planeacion/manual_del_sistema_de_gestion_de_seguridad_de_la_informacion_v3.0_1.p',
+    },
+    {
+      referencia:
+        'Educatica (30 de agosto de 2022). Introducción a los sistemas operativos en red.',
+      link:
+        'https://www.educatica.es/sistemas-operativos/sistemas-operativos-en-red/introduccion-a-los-sistemas-operativos-en-red/',
+    },
+    {
+      referencia:
+        'Ejemplos (5 de noviembre de 2022). 15 ejemplos de normas técnicas.',
+      link: 'https://www.ejemplos.co/15-ejemplos-de-normas-tecnicas/',
+    },
+    {
+      referencia:
+        'Entrust (4 de noviembre de 2022). ¿Qué es el control de acceso basado en roles (RBAC)?',
+      link:
+        'https://www.entrust.com/es/resources/faq/what-is-role-based-access-control',
+    },
+    {
+      referencia: 'JVS Informática (6 de diciembre de 2022). Compatibilidad.',
+      link: 'https://www.jvs-informatica.com/blog/glosario/compatibilidad/',
+    },
+    {
+      referencia:
+        'Ley 1341 de 2009. Diario oficial República de Colombia. Julio 9 de 2009. Recuperado de:',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=36913',
+    },
+    {
+      referencia:
+        'Microsoft (2022). Página web corporativa. Cómo probar la compatibilidad de los programas con Windows. Consultado el 6 de noviembre de 2022. Recuperado de:',
+      link:
+        'https://support.microsoft.com/es-es/topic/c%C3%B3mo-probar-la-compatibilidad-de-los-programas-con-windows-ccd2aab1-6f37-3162-3ec7-38ff722a730a',
+    },
+    {
+      referencia:
+        'Ministerio de tecnologías de información y comunicaciones, Colombia. (2022). Página web institucional. Estándares y Tecnologías. Consultado el 6 de diciembre de 2022. Recuperado de:',
+      link:
+        'https://mintic.gov.co/portal/inicio/Atencion-y-Servicio-a-la-Ciudadania/Preguntas-frecuentes/5236:Estandares-y-Tecnologias',
+    },
+    {
+      referencia:
+        'Tecnologías información (4 de noviembre de 2022). Seguridad en sistemas de información.',
+      link: 'https://www.tecnologias-informacion.com/seguridad.html',
+    },
+    {
+      referencia:
+        'Universidad de Manizales (3 de noviembre de 2022). ¿Qué es Seguridad Informática?',
+      link:
+        'https://sites.google.com/site/sisoper1/home/conceptos-de-seguridad-y-proteccion',
     },
   ],
   creditos: {
