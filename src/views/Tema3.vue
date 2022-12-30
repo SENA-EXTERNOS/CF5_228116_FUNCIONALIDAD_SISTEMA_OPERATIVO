@@ -5,13 +5,13 @@
     .titulo-principal.color-acento-contenido(data-aos="zoom-in-left")
       .titulo-principal__numero
         span 3
-      h1 Seguridad de la información
+      h1 Gestión de la información
     .row.align-items-center.justify-content-center.mb-5.bg7.py-2.pe-5(data-aos="fade-right")
       .col-lg-4.p-0 
         img(src='@/assets/curso/temas/14.png', alt='')    
       .col-lg-8.bgw.p-0
         .p-4
-          p(data-aos="fade-down").mb-0 Dentro de todas las funciones del sistema operativo, la seguridad en la información se ha manifestado como uno de los principales riesgos en la manipulación de los datos.  Según esto, su principal función es salvaguardar la privacidad e integridad de toda la información que se almacena en el centro de datos o sistema. Es casi imposible garantizar que cuando la información está en internet, nunca vaya a ser violentada por ataques externos o hackers, para apropiarse de la información e incluso llenar de virus el dispositivo del usuario o la empresa. Sin embargo, con la seguridad lo que se intenta evitar es que se realice el uso inadecuado del material y los recursos que conforman todo el sistema operativo.
+          p(data-aos="fade-down").mb-0 Después de haber descrito la importancia de la seguridad y sobre todo nombrar la autenticación, en esta parte se tratará el control de acceso, en la cual se realiza una dirección a personas con autorización que pueden manipular la información ya sea eliminando, agregando o editando información. En esta área se describen dos modelos diferentes: lista de control de acceso (ACL) y control de acceso basado en roles (RBAC).
     p(data-aos="fade-down").mb-5 Una ACL es una serie de comandos del sistema operativo IOS  que controlan si un router reenvía o descarta paquetes, según la información que se encuentra en el encabezado de éste. Las ACL son una de las características del software IOS de Cisco  más utilizadas. Una vez están activadas, las ACL realizan las siguientes actividades:
 
     .row.justify-content-center.align-items-start.mb-5
@@ -52,15 +52,15 @@
         img(src='@/assets/curso/temas/16.png', alt='')    
  
     .row.justify-content-center.align-items-start.mb-4
-      .col-lg-4.my-3
+      .col-lg-3.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/17.png', alt='')     
-      .col-lg-8.my-3
+      .col-lg-9.my-3
         TabsA.color-acento-botones
           .tarjeta.color-acento-botones--borde.p-4(titulo="Asignar roles")
             p Un usuario puede ejercer privilegios si se le ha asignado un rol.                               
           .tarjeta.color-acento-botones--borde.p-4(titulo="Autorizar roles")
             p El rol de un usuario debe estar autorizado, lo que garantiza que los usuarios solo puedan asumir roles para los que están autorizados   
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Autorizar privilegios")
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Autorizar<br> privilegios")
             p Un usuario puede ejercer ciertos privilegios si está autorizado para hacerlo, según la asignación de roles. Las funciones del <i>RBAC</i> son un compromiso con el principio de mínimo privilegio. El <i>RBAC</i> ayuda a lograr la seguridad de <i>Zero Trust</i> al asignar la menor cantidad de permisos de acceso a un usuario. El rol define el conjunto de permisos que necesita el usuario para realizar las tareas comerciales asociadas con su función laboral   
           .tarjeta.color-acento-botones--borde.p-4(titulo="Reducir la  carga <br>administrativa")
             p Utilice el <i>RBAC</i> para agregar y cambiar los roles rápidamente e implementarlos globalmente en todos los sistemas operativos, plataformas y aplicaciones. Además, reduce la posibilidad de error al asignar permisos de usuario. El <i>RBAC</i> también integra fácilmente a los usuarios de terceros en su red. 
