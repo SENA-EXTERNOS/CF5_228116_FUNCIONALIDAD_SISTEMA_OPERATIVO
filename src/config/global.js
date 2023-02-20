@@ -61,21 +61,6 @@ export default {
         numero: '3',
         titulo: 'Gestión de la información',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Diseño de informes técnicos sobre instalación',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo:
-              'Normas y estándares técnicos más comunes para la entrega de informes',
-            hash: 't_3_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema4',

@@ -24,7 +24,7 @@
     .row.align-items-stretch.justify-content-center
       .col-lg-10
         .cajon.color-acento-contenido.p-4(data-aos="flip-down")
-          p(data-aos="fade-down").mb-0 Estimado aprendiz. Se ha llegado al final de este componente formativo. Se espera que continúe recorriendo este camino lleno de aprendizajes. Recuerde explorar los recursos que se encuentran disponibles. Diríjase al menú principal en el cual encontrará la síntesis del tema abordado, una actividad didáctica, material complementario, entre otros.                                    
+          p(data-aos="fade-down").mb-0 Estimado aprendiz. Ha llegado al final de este componente formativo. Se espera que continúe recorriendo este camino lleno de aprendizajes. Recuerde explorar los recursos que se encuentran disponibles. Diríjase al menú principal en el cual encontrará la síntesis del tema abordado, una actividad didáctica, material complementario, entre otros.                      
 </template>
 
 <script>

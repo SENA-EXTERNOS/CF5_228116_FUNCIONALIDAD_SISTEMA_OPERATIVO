@@ -11,7 +11,8 @@
         img(src='@/assets/curso/temas/14.png', alt='')    
       .col-lg-8.bgw.p-0
         .p-4
-          p(data-aos="fade-down").mb-0 Después de haber descrito la importancia de la seguridad y sobre todo nombrar la autenticación, en esta parte se tratará el control de acceso, en la cual se realiza una dirección a personas con autorización que pueden manipular la información ya sea eliminando, agregando o editando información. En esta área se describen dos modelos diferentes: lista de control de acceso (ACL) y control de acceso basado en roles (RBAC).
+          p(data-aos="fade-down").mb-0 Después de haber descrito la importancia de la seguridad y sobre todo de resaltar la autenticación, vamos a continuar hablando del control de acceso. En el control de acceso se debe realizar una dirección a personas con autorización, estas personas están autorizadas para manipular la información ya sea eliminando, agregando o editando información. En esta área se describen dos modelos diferentes: lista de control de acceso <em>(ACL)</em> y control de acceso basado en roles <em>(RBAC)</em>.
+
     p(data-aos="fade-down").mb-5 Una ACL es una serie de comandos del sistema operativo IOS  que controlan si un router reenvía o descarta paquetes, según la información que se encuentra en el encabezado de éste. Las ACL son una de las características del software IOS de Cisco  más utilizadas. Una vez están activadas, las ACL realizan las siguientes actividades:
 
     .row.justify-content-center.align-items-start.mb-5
@@ -22,7 +23,8 @@
               p Por ejemplo, si la política corporativa no permite el tráfico de video en la red, se pueden configurar y aplicar <i>ACL</i> que lo bloquee. Esto reduciría considerablemente la carga de la red y aumentaría su rendimiento. 
           .row.justify-content-start.align-items-center(titulo="Proporcionan control del flujo de tráfico")
             .col-11
-              p Las <i>ACL</i> pueden restringir la entrega de actualizaciones de <i>routing</i> para asegurar que las actualizaciones provienen de un origen conocido.
+              p Las <i>ACL</i> pueden restringir la entrega de actualizaciones de <i>routing</i> para asegurar que provienen de un origen conocido.
+
           .row.justify-content-start.align-items-center(titulo="Proporcionan un nivel básico de seguridad para el acceso a la red")
             .col-11
               p Las <i>ACL</i> pueden permitir que un <i>host</i> acceda a una parte de la red y evitar que otro acceda a la misma área.
@@ -69,20 +71,17 @@
           .tarjeta.color-acento-botones--borde.p-4(titulo="Cumplimiento<br> mejorado")
             p El <i>RBAC</i> ayuda a las organizaciones a cumplir con las normas para la protección de datos y la privacidad, así como con los requisitos legales impuestos por los organismos gubernamentales regionales y locales. Esto es posible ya que los departamentos de TI y los ejecutivos pueden gestionar los permisos de acceso a los datos según los roles de los usuarios.   
 
-    Separador 
-    #t_3_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 3.1 Diseño de informes técnicos sobre instalaciones
+    
+    h2(data-aos="zoom-in-left") Diseño de informes técnicos sobre instalaciones
     .row.justify-content-center.align-items-start.mb-4
       .col-lg-10    
         .color-fondo-text1.bg-color(data-aos="fade-down")
           .color-fondo-text1__texto.p-2 
-            p A continuación, se describe una metodología de pasos a seguir a la hora de realizar informes técnicos, los cuales permitirán una descripción directa en cada punto, permitiendo al profesional en el área informar de manera detallada, todos los percances y detalles del proceso de instalación, con el fin de que exista una evidencia del trabajo realizado. Es importante tener presente que el lenguaje a utilizar debe ser entendible para todo tipo de persona que vaya a leer el documento, con la finalidad de que exista claridad en la información.  
+            p A continuación, se describe una metodología de pasos a seguir a la hora de realizar informes técnicos, en la cual encontrarán una descripción directa en cada punto, permitiendo describir de manera detallada todos los percances y detalles del proceso de instalación, con el fin de que exista una evidencia del trabajo realizado. Es importante tener presente que el lenguaje a utilizar debe ser entendible para todo tipo de persona (rol), con la finalidad de que exista comprensión y claridad en la información.  
 
-    img.img-a.img-t.mb-5(data-aos="zoom-in")(src='@/assets/curso/temas/18.svg', alt='')     
+    img.img-a.img-t.mb-5(data-aos="zoom-in")(src='@/assets/curso/temas/18-.svg', alt='')     
 
-    Separador 
-    #t_3_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 3.2 Normas y estándares técnicos más comunes para la entrega de informes 
+    h2(data-aos="zoom-in-left") Normas y estándares técnicos más comunes para la entrega de informes 
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-12(data-aos="fade-left")     
