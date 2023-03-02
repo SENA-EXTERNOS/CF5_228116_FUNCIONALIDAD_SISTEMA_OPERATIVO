@@ -13,7 +13,7 @@
         .p-4
           p(data-aos="fade-down").mb-0 Después de haber descrito la importancia de la seguridad y sobre todo de resaltar la autenticación, vamos a continuar hablando del control de acceso. En el control de acceso se debe realizar una dirección a personas con autorización, estas personas están autorizadas para manipular la información ya sea eliminando, agregando o editando información. En esta área se describen dos modelos diferentes: lista de control de acceso <em>(ACL)</em> y control de acceso basado en roles <em>(RBAC)</em>.
 
-    p(data-aos="fade-down").mb-5 Una ACL es una serie de comandos del sistema operativo IOS  que controlan si un router reenvía o descarta paquetes, según la información que se encuentra en el encabezado de éste. Las ACL son una de las características del software IOS de Cisco  más utilizadas. Una vez están activadas, las ACL realizan las siguientes actividades:
+    p(data-aos="fade-down").mb-5 Una ACL es una serie de comandos del sistema operativo IOS  que controlan si un router reenvía o descarta paquetes, según la información que se encuentra en el encabezado de éste. Las ACL son una de las características del <i>software</i> IOS de Cisco  más utilizadas. Una vez están activadas, las ACL realizan las siguientes actividades:
 
     .row.justify-content-center.align-items-start.mb-5
       .col-lg-8
@@ -98,7 +98,7 @@
 
     p(data-aos="fade-down").mb-5 Los informes técnicos pueden ser de dos clases:
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/22.png', alt='')     
       .col-lg-8.my-3 
@@ -115,6 +115,39 @@
           .col-10.py-3.border-bot
             .col-sm.mb-5.mb-sm-0.mt-2.mx-5
               P Informe final técnico: documento en el cual se registran los resultados y conclusiones sobre la ejecución del proyecto, con sus respectivos soportes y anexos, los cuales responden a los compromisos pactados en el contrato. Se entrega para evaluación al vencimiento del plazo establecido. Se pueden utilizar plantillas con formatos para entrega de informes tales como: APA, IEEE, entre otros.                           
+
+
+
+    h2.mb-5 Comprobar el funcionamiento de los dispositivos T.I en compatibilidad con el <i>software</i>  
+
+    .tarjeta.color-secundario.p-5.p-md-5.mb-5
+      .row.justify-content-around.align-items-center
+        .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
+          img(src="@/assets/curso/temas/23.png")
+
+        .col-md.col-lg-6
+          p(data-aos="fade-down") Todas las aplicaciones (incluyendo juegos, programas, o utilidades) que fueron creadas para versiones anteriores funcionarán en la última versión de Windows 10 incluso Windows 11, pero podría suceder que algunos programas antiguos se ejecuten con problemas o no lo hagan en absoluto. 
+
+          p(data-aos="fade-down").mb-4 Estas son algunas maneras de solucionar problemas comunes con programas antiguos:
+          
+          a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo_1.pdf')" target="_blank" type="application/pdf")
+            span Descargar
+            i.fas.fa-file-download 
+
+    .row.align-items-stretch.justify-content-center
+      .col-lg-10
+        .cajon.color-acento-contenido.p-4(data-aos="flip-down")
+          p(data-aos="fade-down").mb-0 Estimado aprendiz. Ha llegado al final de este componente formativo. Se espera que continúe recorriendo este camino lleno de aprendizajes. Recuerde explorar los recursos que se encuentran disponibles. Diríjase al menú principal en el cual encontrará la síntesis del tema abordado, una actividad didáctica, material complementario, entre otros.      
+
+
+
+
+
+
+
+
+
+
 </template>
 
 <script>

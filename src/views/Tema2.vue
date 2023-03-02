@@ -17,7 +17,7 @@
         img(src='@/assets/curso/temas/10.png', alt='')  
       .col-lg-6
         .p-4
-          p(data-aos="fade-down") Para el cuidado y tratamiento de los datos, se implementan políticas y procedimientos que garanticen a cada usuario el acceso a todos sus recursos. Adicionalmente se debe comprobar que cada recurso que usa el usuario tenga derecho de acceso a los mismos. Con referencia a la seguridad del hardware y la política de protección, cada aplicación se debe incluir dentro de todo dispositivo móvil o sistema operativo, ya que en algunas ocasiones afecta varios componentes del mismo sistema. Dentro de las características de la seguridad de la información es importante tener en cuenta ciertas pautas:
+          p(data-aos="fade-down") Para el cuidado y tratamiento de los datos, se implementan políticas y procedimientos que garanticen a cada usuario el acceso a todos sus recursos. Adicionalmente se debe comprobar que cada recurso que usa el usuario tenga derecho de acceso a los mismos. Con referencia a la seguridad del <i>hardware</i> y la política de protección, cada aplicación se debe incluir dentro de todo dispositivo móvil o sistema operativo, ya que en algunas ocasiones afecta varios componentes del mismo sistema. Dentro de las características de la seguridad de la información es importante tener en cuenta ciertas pautas:
 
           ul.lista-ul(data-aos="fade-down")
             li 
@@ -33,7 +33,7 @@
     .row.align-items-stretch.justify-content-center
       .col-lg-10
         .cajon.color-secundario.p-4.mb-5(data-aos="flip-down")
-          p(data-aos="fade-down").mb-0 Las recomendaciones anteriores se hacen debido a la pérdida de datos, ya sea por accidentes del usuario de forma artificial, natural o errores de software. Por esto, se debe garantizar a cada usuario que el sistema es confiable y está acorde a los tipos de datos que se manejan. Una de las actividades más recomendadas y utilizadas a diario son las copias de seguridad, preferiblemente en diferentes lugares para que en caso de catástrofe o pérdida de la información exista una manera de recuperarla.   
+          p(data-aos="fade-down").mb-0 Las recomendaciones anteriores se hacen debido a la pérdida de datos, ya sea por accidentes del usuario de forma artificial, natural o errores de <i>software</i>. Por esto, se debe garantizar a cada usuario que el sistema es confiable y está acorde a los tipos de datos que se manejan. Una de las actividades más recomendadas y utilizadas a diario son las copias de seguridad, preferiblemente en diferentes lugares para que en caso de catástrofe o pérdida de la información exista una manera de recuperarla.   
 
     p(data-aos="fade-down").mb-5 En otras palabras, se puede decir que cuando se habla de seguridad, se trata de un conjunto de complementos, herramientas y medidas que permiten cuidar, proteger y actuar ante los posibles ataques a los que se está expuesto en la internet. Por esta razón, para cualquier empresa o individuo, existe una guía para salvaguardar la información que a continuación, se presenta:
 
@@ -51,7 +51,7 @@
       .col-lg-3.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/11.png', alt='')
 
-    p(data-aos="fade-down").mb-5 Métodos para incrementar seguridad en los sistemas operativos.
+    p(data-aos="fade-down").mb-5 Métodos para incrementar seguridad en los sistemas operativos:
     
     .row.justify-content-center.align-items-stretch.pt-5.text-center
       .col-lg-6.bg4(data-aos="fade-right")
@@ -63,7 +63,7 @@
         img.img-a.img-t.img-top(src='@/assets/curso/temas/13.png')
         .p-5.pt-0
           h4.my-3 <i>Firewall</i> para <i>software</i>
-          p.mb-0 Se ejecuta en todos los sistemas operativos e identifica los paquetes que llegan a un equipo. Son económicos a comparación del firewall para hardware y su instalación es más sencilla. Existen ciertos detalles que impiden el correcto funcionamiento ya que consume muchos recursos de la computadora.            
+          p.mb-0 Se ejecuta en todos los sistemas operativos e identifica los paquetes que llegan a un equipo. Son económicos a comparación del firewall para <i>hardware</i> y su instalación es más sencilla. Existen ciertos detalles que impiden el correcto funcionamiento ya que consume muchos recursos de la computadora.            
 </template>
 
 <script>

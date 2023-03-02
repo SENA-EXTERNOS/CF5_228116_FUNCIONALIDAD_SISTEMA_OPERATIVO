@@ -45,7 +45,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Dispositivos y compatibilidad con el software',
+        titulo: 'Dispositivos y compatibilidad con el <i>software</i>',
         desarrolloContenidos: true,
       },
       {
@@ -60,14 +60,6 @@ export default {
         icono: 'far fa-file-alt',
         numero: '3',
         titulo: 'Gestión de la información',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema4',
-        icono: 'far fa-file-alt',
-        numero: '4',
-        titulo:
-          'Comprobar el funcionamiento de los dispositivos T.I en compatibilidad con el <i>software</i>  ',
         desarrolloContenidos: true,
       },
     ],
@@ -197,7 +189,7 @@ export default {
     },
     {
       referencia:
-        'Desarrollo económico (s.f.). Manual del sistema de gestión de seguridad de la información. [Documento web]',
+        'Desarrollo económico (s.f.).<i> Manual del sistema de gestión de seguridad de la información.</i> [Documento web]',
       link:
         'http://www.desarrolloeconomico.gov.co/sites/default/files/planeacion/manual_del_sistema_de_gestion_de_seguridad_de_la_informacion_v3.0_1.p',
     },

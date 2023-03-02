@@ -41,7 +41,7 @@
               p Cuando se presentan estos inconvenientes de compatibilidad, significa que el programa no se interpreta correctamente o en definitiva nunca ha podido interpretar un algoritmo, esto implica que hay un fallo de ejecución en la consola o que no puede ser ejecutado.  
           .row.justify-content-center.align-items-center(titulo="Actividad 4")
             .col-10
-              p Cuando se desarrollan programas de código abierto, lo más seguro es que no haya problemas del tipo de incompatibilidad.     
+              p Cuando se desarrollan programas de código abierto, es probable que no haya problemas de tipo de incompatibilidad.  
       .col-lg-4
         img.img-a.img-t(src='@/assets/curso/temas/4.png', alt='') 
 
