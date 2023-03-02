@@ -63,7 +63,7 @@
         img.img-a.img-t.img-top(src='@/assets/curso/temas/13.png')
         .p-5.pt-0
           h4.my-3 <i>Firewall</i> para <i>software</i>
-          p.mb-0 Se ejecuta en todos los sistemas operativos e identifica los paquetes que llegan a un equipo. Son económicos a comparación del firewall para <i>hardware</i> y su instalación es más sencilla. Existen ciertos detalles que impiden el correcto funcionamiento ya que consume muchos recursos de la computadora.            
+          p.mb-0 Se ejecuta en todos los sistemas operativos e identifica los paquetes que llegan a un equipo. Son económicos a comparación del <i>firewall</i> para <i>hardware</i> y su instalación es más sencilla. Existen ciertos detalles que impiden el correcto funcionamiento ya que consume muchos recursos de la computadora.            
 </template>
 
 <script>
