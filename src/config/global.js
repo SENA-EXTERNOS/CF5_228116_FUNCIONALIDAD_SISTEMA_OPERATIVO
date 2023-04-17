@@ -118,7 +118,7 @@ export default {
         'Silva, F. Segadas, G. & Bezerra, K. (s/a). Gestión de la seguridad de la información. Red Cedia. Recuperado de:',
       tipo: 'Libro',
       link:
-        'https://desarrolloeconomico.gov.co/sites/default/files/planeacion/manual_del_sistema_de_gestion_de_seguridad_de_la_informacion_v3.0_1.pdf',
+        'https://desarrolloeconomico.gov.co/wp-content/uploads/2022/12/manual_del_sistema_de_gestion_de_seguridad_de_la_informacion_v3.0_1.pdf',
     },
     {
       tema: 'Fundamentos de seguridad informática.',

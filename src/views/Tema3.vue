@@ -61,13 +61,13 @@
           .tarjeta.color-acento-botones--borde.p-4(titulo="Asignar roles")
             p Un usuario puede ejercer privilegios si se le ha asignado un rol.                               
           .tarjeta.color-acento-botones--borde.p-4(titulo="Autorizar roles")
-            p El rol de un usuario debe estar autorizado, lo que garantiza que los usuarios solo puedan asumir roles para los que están autorizados   
+            p El rol de un usuario debe estar autorizado, lo que garantiza que los usuarios solo puedan asumir roles para los que están autorizados.   
           .tarjeta.color-acento-botones--borde.p-4(titulo="Autorizar<br> privilegios")
-            p Un usuario puede ejercer ciertos privilegios si está autorizado para hacerlo, según la asignación de roles. Las funciones del <i>RBAC</i> son un compromiso con el principio de mínimo privilegio. El <i>RBAC</i> ayuda a lograr la seguridad de <i>Zero Trust</i> al asignar la menor cantidad de permisos de acceso a un usuario. El rol define el conjunto de permisos que necesita el usuario para realizar las tareas comerciales asociadas con su función laboral   
+            p Un usuario puede ejercer ciertos privilegios si está autorizado para hacerlo, según la asignación de roles. Las funciones del <i>RBAC</i> son un compromiso con el principio de mínimo privilegio. El <i>RBAC</i> ayuda a lograr la seguridad de <i>Zero Trust</i> al asignar la menor cantidad de permisos de acceso a un usuario. El rol define el conjunto de permisos que necesita el usuario para realizar las tareas comerciales asociadas con su función laboral.   
           .tarjeta.color-acento-botones--borde.p-4(titulo="Reducir la  carga <br>administrativa")
             p Utilice el <i>RBAC</i> para agregar y cambiar los roles rápidamente e implementarlos globalmente en todos los sistemas operativos, plataformas y aplicaciones. Además, reduce la posibilidad de error al asignar permisos de usuario. El <i>RBAC</i> también integra fácilmente a los usuarios de terceros en su red. 
           .tarjeta.color-acento-botones--borde.p-4(titulo="Separar tareas")
-            p Como los roles están separados, en teoría, ningún usuario individual puede causar una infracción significativa, ya que un <i>hacker </i>estaría limitado a los recursos a los que se le permitió acceder a esa cuenta 
+            p Como los roles están separados, en teoría, ningún usuario individual puede causar una infracción significativa, ya que un <i>hacker </i>estaría limitado a los recursos a los que se le permitió acceder a esa cuenta. 
           .tarjeta.color-acento-botones--borde.p-4(titulo="Cumplimiento<br> mejorado")
             p El <i>RBAC</i> ayuda a las organizaciones a cumplir con las normas para la protección de datos y la privacidad, así como con los requisitos legales impuestos por los organismos gubernamentales regionales y locales. Esto es posible ya que los departamentos de TI y los ejecutivos pueden gestionar los permisos de acceso a los datos según los roles de los usuarios.   
 
@@ -87,7 +87,7 @@
       .col-lg-12(data-aos="fade-left")     
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)    
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/fgWwSnWGAww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)    
 
     .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
