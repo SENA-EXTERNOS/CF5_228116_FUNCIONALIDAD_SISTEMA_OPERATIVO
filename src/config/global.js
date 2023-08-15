@@ -190,8 +190,7 @@ export default {
     {
       referencia:
         'Desarrollo económico (s.f.).<i> Manual del sistema de gestión de seguridad de la información.</i> [Documento web]',
-      link:
-        'http://www.desarrolloeconomico.gov.co/sites/default/files/planeacion/manual_del_sistema_de_gestion_de_seguridad_de_la_informacion_v3.0_1.p',
+      link: '',
     },
     {
       referencia:
@@ -240,8 +239,7 @@ export default {
     {
       referencia:
         'Universidad de Manizales (3 de noviembre de 2022). ¿Qué es Seguridad Informática?',
-      link:
-        'https://sites.google.com/site/sisoper1/home/conceptos-de-seguridad-y-proteccion',
+      link: '',
     },
   ],
   creditos: {
