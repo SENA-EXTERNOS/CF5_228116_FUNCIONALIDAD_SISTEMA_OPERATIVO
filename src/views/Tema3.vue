@@ -13,7 +13,7 @@
         .p-4
           p(data-aos="fade-down").mb-0 Después de haber descrito la importancia de la seguridad y sobre todo de resaltar la autenticación, vamos a continuar hablando del control de acceso. En el control de acceso se debe realizar una dirección a personas con autorización, estas personas están autorizadas para manipular la información ya sea eliminando, agregando o editando información. En esta área se describen dos modelos diferentes: lista de control de acceso <em>(ACL)</em> y control de acceso basado en roles <em>(RBAC)</em>.
 
-    p(data-aos="fade-down").mb-5 Una ACL es una serie de comandos del sistema operativo IOS  que controlan si un router reenvía o descarta paquetes, según la información que se encuentra en el encabezado de éste. Las ACL son una de las características del <i>software</i> IOS de Cisco  más utilizadas. Una vez están activadas, las ACL realizan las siguientes actividades:
+    p(data-aos="fade-down").mb-5 Una ACL es una serie de comandos del sistema operativo IOS  que controlan si un #[em router] reenvía o descarta paquetes, según la información que se encuentra en el encabezado de éste. Las ACL son una de las características del <i>software</i> IOS de Cisco  más utilizadas. Una vez están activadas, las ACL realizan las siguientes actividades:
 
     .row.justify-content-center.align-items-start.mb-5
       .col-lg-8
@@ -36,14 +36,14 @@
               p Las <i>ACL</i> pueden permitir o denegarles a los usuarios el acceso a determinados tipos de archivos, como a los protocolos de transferencia de archivos (<i>FTP</i>) o protocolo de transferencia de hipertextos (<i>HTTP</i>).
           .row.justify-content-start.align-items-center(titulo="Los <i>routers</i> no tienen <i>ACL</i> configuradas de manera predeterminada, por lo que no filtran el tráfico")
             .col-11
-              p Al ingresar esta se enruta solamente en función de la disposición de la tabla de <i>routing</i>. Sin embargo, cuando se aplica una <i>ACL</i> a una interfaz, el <i>router</i> realiza la tarea adicional de evaluar todos los paquetes de red a medida que pasan a través de ella, para determinar si el paquete se puede reenviar.” (2017, diciembre 27)                                                                       
+              p Al ingresar esta se enruta solamente en función de la disposición de la tabla de <i>routing</i>. Sin embargo, cuando se aplica una <i>ACL</i> a una interfaz, el <i>router</i> realiza la tarea adicional de evaluar todos los paquetes de red a medida que pasan a través de ella, para determinar si el paquete se puede reenviar.” (2017, diciembre 27).                                                                      
       .col-lg-4
         img.img-a.img-t(src='@/assets/curso/temas/15.png', alt='')   
 
     .row.align-items-stretch.justify-content-center
       .col-lg-8
         .cajon.color-secundario.p-4.mb-5(data-aos="flip-down")
-          p(data-aos="fade-down").mb-0 Detallando la información anterior, una ACL es una lista secuencial de instrucciones para permitir (permit) o denegar (deny), conocidas como entradas de control de acceso (ACE). Estas últimas también se denominan comúnmente instrucciones de ACL. Cuando el tráfico de la red atraviesa una interfaz configurada, el router compara la información dentro del paquete con cada ACE, en orden secuencial, para determinar si el paquete coincide con una de ellas. Este proceso se denomina filtrado de paquetes y controla el acceso a una red mediante el análisis de los entrantes y salientes y la transferencia o el descarte de estos según criterios determinados, puede producirse en la capa tres o capa cuatro (2017, diciembre 27).    
+          p(data-aos="fade-down").mb-0 Detallando la información anterior, una ACL es una lista secuencial de instrucciones para permitir (permit) o denegar (deny), conocidas como entradas de control de acceso (ACE). Estas últimas también se denominan comúnmente instrucciones de ACL. Cuando el tráfico de la red atraviesa una interfaz configurada, el #[em router] compara la información dentro del paquete con cada ACE, en orden secuencial, para determinar si el paquete coincide con una de ellas. Este proceso se denomina filtrado de paquetes y controla el acceso a una red mediante el análisis de los entrantes y salientes y la transferencia o el descarte de estos según criterios determinados, puede producirse en la capa tres o capa cuatro (2017, diciembre 27).    
 
     .row.align-items-center.justify-content-center.mb-4
       .col-lg-7.my-3
@@ -118,7 +118,7 @@
 
 
 
-    h2.mb-5 Comprobar el funcionamiento de los dispositivos T.I en compatibilidad con el <i>software</i>  
+    h2.mb-5 Comprobar el funcionamiento de los dispositivos TI en compatibilidad con el <i>software</i>  
 
     .tarjeta.color-secundario.p-5.p-md-5.mb-5
       .row.justify-content-around.align-items-center

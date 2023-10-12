@@ -8,7 +8,7 @@
       h1 Seguridad de la información
     .row.align-items-stretch.justify-content-center.mb-5
       .col-lg-6.bg2.p-4
-        p(data-aos="fade-down").mb-0 Dentro de todas las funciones del sistema operativo, la seguridad en la información se ha manifestado como uno de los principales riesgos en la manipulación de los datos.  Según esto, su principal función es salvaguardar la privacidad e integridad de toda la información que se almacena en el centro de datos o sistema. Es casi imposible garantizar que cuando la información está en internet, este a salvo de ataques externos o hackers que desean apropiarse de la información e incluso llenar de virus el dispositivo del usuario o la empresa. Sin embargo, con la seguridad, lo que se intenta evitar es que se realice el uso inadecuado del material y los recursos que conforman todo el sistema operativo.
+        p(data-aos="fade-down").mb-0 Dentro de todas las funciones del sistema operativo, la seguridad en la información se ha manifestado como uno de los principales riesgos en la manipulación de los datos.  Según esto, su principal función es salvaguardar la privacidad e integridad de toda la información que se almacena en el centro de datos o sistema. Es casi imposible garantizar que cuando la información está en internet, este a salvo de ataques externos o #[em hackers] que desean apropiarse de la información e incluso llenar de virus el dispositivo del usuario o la empresa. Sin embargo, con la seguridad, lo que se intenta evitar es que se realice el uso inadecuado del material y los recursos que conforman todo el sistema operativo.
       .col-lg-6.p-0 
         img.img-a.img-t(src='@/assets/curso/temas/9.png', alt='')
 
