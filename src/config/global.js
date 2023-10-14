@@ -123,10 +123,10 @@ export default {
     {
       tema: 'Fundamentos de seguridad informática.',
       referencia:
-        'Saramago, E.& Ponce, J. (2021). Fundamentos de seguridad informática. Grupo Compás. Recuperado de:',
+        'Arango Gomez, O. D. (2023). El ABC de la seguridad informática: guía práctica para entender la seguridad digital.',
       tipo: 'Libro',
       link:
-        'https://www.researchgate.net/publication/354054517_Libro_Fundamentos_de_seguridad_informatica/link/61214449232f955865a0e90d/download',
+        'http://repositorio.itm.edu.co/bitstream/handle/20.500.12622/5901/El%20ABC%20de%20la%20seguridad%20inform%c3%a1tica%20gu%c3%ada%20pr%c3%a1ctica%20para%20entender%20la%20seguridad%20digital.pdf?sequence=4&isAllowed=y',
     },
   ],
   glosario: [
@@ -238,8 +238,9 @@ export default {
     },
     {
       referencia:
-        'Universidad de Manizales (3 de noviembre de 2022). ¿Qué es Seguridad Informática?',
-      link: '',
+        'Urbina, G. B. (2017). <em>Introducción a la seguridad informática. </em>Grupo editorial PATRIA.',
+      link:
+        'https://books.google.es/books?hl=es&lr=&id=IhUhDgAAQBAJ&oi=fnd&pg=PP1&dq=%C2%BFQu%C3%A9+es+Seguridad+Inform%C3%A1tica%3F&ots=0XTz8AwhEp&sig=uJlaAWg2TEpS5bpHIcpyrGsmm6Y',
     },
   ],
   creditos: {
