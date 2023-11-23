@@ -115,18 +115,17 @@ export default {
     {
       tema: 'Gestión de la seguridad de la información.',
       referencia:
-        'Silva, F. Segadas, G. & Bezerra, K. (s/a). Gestión de la seguridad de la información. Red Cedia. Recuperado de:',
+        'Silva, F. Segadas, G. & Bezerra, K. (s/a). Gestión de la seguridad de la información. Red Cedia. Recuperado de',
       tipo: 'Libro',
-      link:
-        'https://desarrolloeconomico.gov.co/wp-content/uploads/2022/12/manual_del_sistema_de_gestion_de_seguridad_de_la_informacion_v3.0_1.pdf',
+      link: 'https://cedia.edu.ec/docs/efc/GTI8.pdf',
     },
     {
       tema: 'Fundamentos de seguridad informática.',
       referencia:
-        'Arango Gomez, O. D. (2023). El ABC de la seguridad informática: guía práctica para entender la seguridad digital.',
+        'Saramago, E.& Ponce, J. (2021). Fundamentos de seguridad informática. Grupo Compás.',
       tipo: 'Libro',
       link:
-        'http://repositorio.itm.edu.co/bitstream/handle/20.500.12622/5901/El%20ABC%20de%20la%20seguridad%20inform%c3%a1tica%20gu%c3%ada%20pr%c3%a1ctica%20para%20entender%20la%20seguridad%20digital.pdf?sequence=4&isAllowed=y',
+        'https://www.researchgate.net/publication/354054517_Libro_Fundamentos_de_seguridad_informatica',
     },
   ],
   glosario: [
